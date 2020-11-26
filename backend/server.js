@@ -4,7 +4,7 @@ import colors from 'colors'
 import connectDB from './config/db.js'
 
 import productRoutes from './routes/productRoutes.js'
-//m1
+//m11
 dotenv.config()
 
 connectDB()
