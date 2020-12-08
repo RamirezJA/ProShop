@@ -8,7 +8,7 @@ import {
   PRODUCT_Details_SUCCESS,
   PRODUCT_Details_FAIL,
 } from '../constants/productConstants.js'
-//Action
+//Action to list all products
 
 export const listProducts = () => async (dispatch) => {
   try {
@@ -31,6 +31,7 @@ export const listProducts = () => async (dispatch) => {
   }
 }
 
+//Action to list products by id
 export const listProductDetails = (id) => async (dispatch) => {
   try {
     dispatch({ type: PRODUCT_Details_REQUEST })
