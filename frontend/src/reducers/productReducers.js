@@ -19,6 +19,7 @@ export const productListReducer = (state = { products: [] }, action) => {
       return state
   }
 }
+//product detail reducer
 
 export const productDetailsReducer = (
   state = { product: { reviews: [] } },
